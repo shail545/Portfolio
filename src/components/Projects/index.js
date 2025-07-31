@@ -32,12 +32,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
           } */}
-          <Divider />
-          {toggle === 'machine learning' ?
+          {/* <Divider /> */}
+          {/* {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>SpringBoot </ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>SpringBoot</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
