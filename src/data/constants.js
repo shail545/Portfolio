@@ -9,6 +9,7 @@ export const Bio = {
   github: "https://github.com/shail545",
   resume:
     "https://drive.google.com/file/d/1OK-_Y90z5VvJFXxtuBWSu_LTb5eCzjKl/view?usp=sharing",
+    "https://drive.google.com/file/d/1OK-_Y90z5VvJFXxtuBWSu_LTb5eCzjKl/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shail545/",
   twitter: "",
   insta: "https://www.instagram.com/shail_545/",
@@ -142,40 +143,49 @@ export const skills = [
 
 
 
+
 export const education = [
   {
     id: 0,
     img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970599/download_wlfpvb.png",
+    img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970599/download_wlfpvb.png",
     school: "National Institute of Technology, Jamshedpur",
     date: "Aug 2023 - may 2026",
     grade: "7.0 CGPA",
+    desc: "I am currently pursuing an MCA at the National Institute of Technology, Jamshedpur. I have completed four semesters with a CGPA of 7.0. As part of my coursework, I have studied subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     desc: "I am currently pursuing an MCA at the National Institute of Technology, Jamshedpur. I have completed four semesters with a CGPA of 7.0. As part of my coursework, I have studied subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Master of Computer Applications (MCA) ",
   },
   {
     id: 1,
     img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970763/safalCollege_gpyci8.jpg",
+    img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970763/safalCollege_gpyci8.jpg",
     school: "Safal College,Suwasra",
     date: "Aug 2019 - may 2022",
     grade: "74.24%",
+    desc: "I completed my undergraduate degree at Safal College, Suwasra, earning a Bachelor of Science (B.Sc.) in Computer Science.",
     desc: "I completed my undergraduate degree at Safal College, Suwasra, earning a Bachelor of Science (B.Sc.) in Computer Science.",
     degree: "Bachelor of Science in Computer Science(BSC CS)",
   },
   {
     id: 2,
     img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970860/abhinav_wmgv1d.jpg",
+    img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970860/abhinav_wmgv1d.jpg",
     school: "Abhinav H.S.School,Runija",
     date: "June 2018 - Apr 2019",
     grade: "83.8%",
+    desc: "I completed my Class 12 education at Abhinav H.S. School, Runija, with a focus on Physics, Chemistry, and Mathematics (PCM).",
     desc: "I completed my Class 12 education at Abhinav H.S. School, Runija, with a focus on Physics, Chemistry, and Mathematics (PCM).",
     degree: "MP Board(XII), PCM",
   },
   {
     id:3,
     img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970860/abhinav_wmgv1d.jpg",
+    img: "https://res.cloudinary.com/dt9jubdky/image/upload/v1753970860/abhinav_wmgv1d.jpg",
     school: "Abhinav H.S.School,Runija",
     date: "june 2016 - Apr 2017",
     grade: "87.16%",
+    desc: "I completed my class 10 education at Abhinav H.S.School, Runija.",
     desc: "I completed my class 10 education at Abhinav H.S.School, Runija.",
     degree: "MP Board(X)",
   },
@@ -184,8 +194,52 @@ export const education = [
 
 export const projects = [
 
+
   {
     id: 9,
+     title: "ACE-THE-CODING",
+    date: "Jan 2025 - Present",
+   
+    description:
+      "CodeAce is an advanced LeetCode-style coding platform that combines AI-driven interview preparation with gamified learning and real-time contests, offering users a comprehensive solution for mastering coding interviews. The platform features 1000+ problems across DSA, system design, and algorithms, categorized by difficulty (Easy, Medium, Hard) and topics (Arrays, Graphs, DP, etc.). Users can participate in AI-powered mock interviews with performance scoring, detailed feedback, and historical review, while earning 1 LeetCoin daily by solving the Problem of the Day (POTD)— redeemable for premium problems. Each problem includes video explanations with an AI- powered Ask Me feature (Vector DB-backed) for doubt resolution, alongside a GenAI chatbot for context-aware assistance. Real-time coding contests with leaderboards enhance competitive practice, supported by a microservices backend using Redis for session management, POTD tracking, and rate limiting The platform boasts a modern UI built with DaisyUI + Tailwind CSS, ensuring a seamless and intuitive user experience.",
+    image:
+   "https://i.postimg.cc/vHcd0yhp/Screenshot-2025-08-10-164412.png"  
+    ,
+    tags: [
+      "MERN",
+      "CLOUDINARY",
+      "REDIS",
+      "SUPABASE",
+      "JUDGE0",
+    ],
+    category: "web app",
+    github: "https://github.com/shail545/CODE_ACE",
+    webapp: "https://acethecoding.online/signup",
+  },
+    {
+    id: 11,
+     title: "DEEP-POCKETS",
+    date: "May 2025 - June 2025",
+   
+    description:
+      "It appears designed to help users track, analyze, and manage their finances, possibly integrating AI features or analytics dashboards.The modular structure (components, hooks, actions, lib) suggests it’s built for scalability, with Prisma handling database operations and Tailwind ensuring a responsive UI.",
+    image:
+   "https://i.postimg.cc/cHp5TqJN/Screenshot-2025-08-10-165239.png"  
+    ,
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "Prisma (ORM)",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/shail545/Deep_Pockets",
+    webapp: "https://github.com/shail545/Deep_Pockets",
+  },
+  {
+    id: 10,
+     title: "AI Trip Planner",
+    date: "March 2025 - May 2025",
      title: "ACE-THE-CODING",
     date: "Jan 2025 - Present",
    
@@ -234,6 +288,8 @@ export const projects = [
     image:
    "https://i.postimg.cc/MGSVrydq/IMG-20250517-WA0025.jpg"  
     ,
+   "https://i.postimg.cc/MGSVrydq/IMG-20250517-WA0025.jpg"  
+    ,
     tags: [
       "React Js",
       "Google Gemini AI",
@@ -246,13 +302,19 @@ export const projects = [
     webapp: "https://github.com/shail545/AI-Trip-Planner",
   },
   
+  
   {
     id: 0,
     title: "Tea-Website",
     date: "Apr 2024 - May 2024",
+    title: "Tea-Website",
+    date: "Apr 2024 - May 2024",
     description:
     "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
+    "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
     image:
+      "https://i.postimg.cc/d32FskzR/Screenshot-2025-05-19-134808.png",
+    tags: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Modernizr"],
       "https://i.postimg.cc/d32FskzR/Screenshot-2025-05-19-134808.png",
     tags: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Modernizr"],
     category: "web app",
