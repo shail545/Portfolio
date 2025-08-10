@@ -178,110 +178,7 @@ export const skills = [
   },
 ];
 
-// export const experiences = [
-//   {
-//     id: 0,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-//     role: "DevOps & Fullstack Engineering Intern",
-//     company: "Flipr Inovations Pvt. Ltd.",
-//     date: "Aug 2023 - July 2023",
-//     desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-//     skills: [
-//       "Docker",
-//       "Terraform",
-//       "AWS",
-//       "EC2",
-//       "Portainer",
-//       "Nginx",
-//       "JavaScript",
-//       "TypeScript",
-//       "Node Js",
-//       " Next Js",
-//     ],
-//     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-//   },
-//   {
-//     id: 0,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-//     role: "Frontend Engineer Intern",
-//     company: "Neurobit",
-//     date: "June 2023 - Present",
-//     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-//     skills: [
-//       "ReactJS",
-//       "Redux",
-//       "NodeJs",
-//       "Material UI",
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//     ],
-//     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-//   },
-//   {
-//     id: 1,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-//     role: "Fullstack Externship",
-//     company: "Flipr",
-//     date: "June 2023 - July 2023",
-//     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-//     skills: [
-//       "ReactJS",
-//       "Redux",
-//       "NodeJs",
-//       "Material UI",
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//       "Docker",
-//       "AWS",
-//       "MongoDB",
-//     ],
-//   },
-//   {
-//     id: 2,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-//     role: "Open Source Contributor ",
-//     company: "GirlScript Summer of Code",
-//     date: "May 2023 - Present",
-//     desc: "Contributing to different open-source projects and learn from industry experts",
-//     doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-//   },
-//   {
-//     id: 3,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-//     role: "Android Developer",
-//     company: "DSC KIIT",
-//     date: "Nov2021 - Present",
-//     desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-//     skills: [
-//       "Leadership",
-//       "Mobile Application Development",
-//       "Kotlin",
-//       "XML",
-//       "Figma",
-//     ],
-//   },
-//   {
-//     id: 4,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-//     role: "Android Developer Intern",
-//     company: "Rudraksha Welffare Foundation",
-//     date: "June 2021 - Oct 2021",
-//     desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-//     skills: [
-//       "Android",
-//       "Java",
-//       "Kotlin",
-//       "XML",
-//       "Node Js",
-//       "Cloud Firestore",
-//       "Firebase",
-//       "Figma",
-//     ],
-//     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-//   },
-// ];
+
 
 export const education = [
   {
@@ -324,10 +221,52 @@ export const education = [
 
 
 export const projects = [
+
   {
     id: 9,
-    title: "AI Trip Planner",
-    date: "March 2025 - Present",
+     title: "ACE-THE-CODING",
+    date: "Jan 2025 - Present",
+   
+    description:
+      "CodeAce is an advanced LeetCode-style coding platform that combines AI-driven interview preparation with gamified learning and real-time contests, offering users a comprehensive solution for mastering coding interviews. The platform features 1000+ problems across DSA, system design, and algorithms, categorized by difficulty (Easy, Medium, Hard) and topics (Arrays, Graphs, DP, etc.). Users can participate in AI-powered mock interviews with performance scoring, detailed feedback, and historical review, while earning 1 LeetCoin daily by solving the Problem of the Day (POTD)— redeemable for premium problems. Each problem includes video explanations with an AI- powered Ask Me feature (Vector DB-backed) for doubt resolution, alongside a GenAI chatbot for context-aware assistance. Real-time coding contests with leaderboards enhance competitive practice, supported by a microservices backend using Redis for session management, POTD tracking, and rate limiting The platform boasts a modern UI built with DaisyUI + Tailwind CSS, ensuring a seamless and intuitive user experience.",
+    image:
+   "https://i.postimg.cc/vHcd0yhp/Screenshot-2025-08-10-164412.png"  
+    ,
+    tags: [
+      "MERN",
+      "CLOUDINARY",
+      "REDIS",
+      "SUPABASE",
+      "JUDGE0",
+    ],
+    category: "web app",
+    github: "https://github.com/shail545/CODE_ACE",
+    webapp: "https://acethecoding.online/signup",
+  },
+    {
+    id: 11,
+     title: "DEEP-POCKETS",
+    date: "May 2025 - June 2025",
+   
+    description:
+      "It appears designed to help users track, analyze, and manage their finances, possibly integrating AI features or analytics dashboards.The modular structure (components, hooks, actions, lib) suggests it’s built for scalability, with Prisma handling database operations and Tailwind ensuring a responsive UI.",
+    image:
+   "https://i.postimg.cc/cHp5TqJN/Screenshot-2025-08-10-165239.png"  
+    ,
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "Prisma (ORM)",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/shail545/Deep_Pockets",
+    webapp: "https://github.com/shail545/Deep_Pockets",
+  },
+  {
+    id: 10,
+     title: "AI Trip Planner",
+    date: "March 2025 - May 2025",
     description:
       "The AI Trip Planner is an innovative and intelligent travel planning tool designed to simplify and personalize the trip planning process. Leveraging the power of artificial intelligence, this platform helps users create customized travel itineraries tailored to their preferences, budget, and interests. Whether you're planning a weekend getaway, a business trip, or a long vacation, the AI Trip Planner ensures a seamless and stress-free experience.",
     image:
@@ -344,6 +283,7 @@ export const projects = [
     github: "https://github.com/shail545/AI-Trip-Planner",
     webapp: "https://github.com/shail545/AI-Trip-Planner",
   },
+  
   {
     id: 0,
     title: "Tea-Website",
@@ -356,38 +296,13 @@ export const projects = [
     category: "web app",
     github: "https://github.com/shail545/Coffee-Shop",
     webapp: "https://vocal-baklava-7762c7.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
+    
   },
  
  
  
 
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
+
 ];
 
 // export const TimeLineData = [
