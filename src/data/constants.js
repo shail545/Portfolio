@@ -7,9 +7,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shail545",
-  resume:
-    "https://drive.google.com/file/d/1OK-_Y90z5VvJFXxtuBWSu_LTb5eCzjKl/view?usp=sharing",
-    "https://drive.google.com/file/d/1OK-_Y90z5VvJFXxtuBWSu_LTb5eCzjKl/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1OK-_Y90z5VvJFXxtuBWSu_LTb5eCzjKl/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/shail545/",
   twitter: "",
   insta: "https://www.instagram.com/shail_545/",
@@ -236,60 +234,15 @@ export const projects = [
     github: "https://github.com/shail545/Deep_Pockets",
     webapp: "https://github.com/shail545/Deep_Pockets",
   },
-  {
-    id: 10,
-     title: "AI Trip Planner",
-    date: "March 2025 - May 2025",
-     title: "ACE-THE-CODING",
-    date: "Jan 2025 - Present",
-   
-    description:
-      "CodeAce is an advanced LeetCode-style coding platform that combines AI-driven interview preparation with gamified learning and real-time contests, offering users a comprehensive solution for mastering coding interviews. The platform features 1000+ problems across DSA, system design, and algorithms, categorized by difficulty (Easy, Medium, Hard) and topics (Arrays, Graphs, DP, etc.). Users can participate in AI-powered mock interviews with performance scoring, detailed feedback, and historical review, while earning 1 LeetCoin daily by solving the Problem of the Day (POTD)— redeemable for premium problems. Each problem includes video explanations with an AI- powered Ask Me feature (Vector DB-backed) for doubt resolution, alongside a GenAI chatbot for context-aware assistance. Real-time coding contests with leaderboards enhance competitive practice, supported by a microservices backend using Redis for session management, POTD tracking, and rate limiting The platform boasts a modern UI built with DaisyUI + Tailwind CSS, ensuring a seamless and intuitive user experience.",
-    image:
-   "https://i.postimg.cc/vHcd0yhp/Screenshot-2025-08-10-164412.png"  
-    ,
-    tags: [
-      "MERN",
-      "CLOUDINARY",
-      "REDIS",
-      "SUPABASE",
-      "JUDGE0",
-    ],
-    category: "web app",
-    github: "https://github.com/shail545/CODE_ACE",
-    webapp: "https://acethecoding.online/signup",
-  },
-    {
-    id: 11,
-     title: "DEEP-POCKETS",
-    date: "May 2025 - June 2025",
-   
-    description:
-      "It appears designed to help users track, analyze, and manage their finances, possibly integrating AI features or analytics dashboards.The modular structure (components, hooks, actions, lib) suggests it’s built for scalability, with Prisma handling database operations and Tailwind ensuring a responsive UI.",
-    image:
-   "https://i.postimg.cc/cHp5TqJN/Screenshot-2025-08-10-165239.png"  
-    ,
-    tags: [
-      "Next.js",
-      "Tailwind CSS",
-      "Prisma (ORM)",
-      "JavaScript",
-    ],
-    category: "web app",
-    github: "https://github.com/shail545/Deep_Pockets",
-    webapp: "https://github.com/shail545/Deep_Pockets",
-  },
+ 
   {
     id: 10,
      title: "AI Trip Planner",
     date: "March 2025 - May 2025",
     description:
       "The AI Trip Planner is an innovative and intelligent travel planning tool designed to simplify and personalize the trip planning process. Leveraging the power of artificial intelligence, this platform helps users create customized travel itineraries tailored to their preferences, budget, and interests. Whether you're planning a weekend getaway, a business trip, or a long vacation, the AI Trip Planner ensures a seamless and stress-free experience.",
-    image:
-   "https://i.postimg.cc/MGSVrydq/IMG-20250517-WA0025.jpg"  
-    ,
-   "https://i.postimg.cc/MGSVrydq/IMG-20250517-WA0025.jpg"  
-    ,
+    image:"https://i.postimg.cc/MGSVrydq/IMG-20250517-WA0025.jpg"  
+    , 
     tags: [
       "React Js",
       "Google Gemini AI",
@@ -309,14 +262,10 @@ export const projects = [
     date: "Apr 2024 - May 2024",
     title: "Tea-Website",
     date: "Apr 2024 - May 2024",
-    description:
-    "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
-    "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
+    description: "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
     image:
       "https://i.postimg.cc/d32FskzR/Screenshot-2025-05-19-134808.png",
-    tags: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Modernizr"],
-      "https://i.postimg.cc/d32FskzR/Screenshot-2025-05-19-134808.png",
-    tags: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Modernizr"],
+    tags: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Modernizr"], 
     category: "web app",
     github: "https://github.com/shail545/Coffee-Shop",
     webapp: "https://vocal-baklava-7762c7.netlify.app/",
