@@ -151,11 +151,12 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
+     {
+  name: "Netlify",
+  image:
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/netlify/netlify-original-wordmark.svg",
+},
+
       {
         name: "VS Code",
         image:
