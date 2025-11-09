@@ -283,8 +283,6 @@ export const projects = [
     id: 0,
     title: "Tea-Website",
     date: "Apr 2024 - May 2024",
-    title: "Tea-Website",
-    date: "Apr 2024 - May 2024",
     description: "Coffee Shop Website is a modern and responsive front-end template designed for coffee shops and cafés. Built using HTML, CSS, Bootstrap, and JavaScript, it features stylish layouts to showcase menus, team members, and customer testimonials. This project offers a clean and professional online presence, ideal for attracting and engaging coffee lovers.",
     image:
       "https://i.postimg.cc/d32FskzR/Screenshot-2025-05-19-134808.png",
